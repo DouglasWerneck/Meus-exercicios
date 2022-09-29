@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Criando Formulario</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="Logo da Kenzie Academy">    
+        </figure>
+        <section>
+            <h1>Cadastro Tecnologia Kenzie</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h2>Faça seu cadastro para o evento de tecnologia da kenzie</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam quod debitis ut vitae deserunt eveniet culpa provident laudantium perferendis. Exercitationem quos dolor quod consequatur reiciendis molestias numquam! Libero, veniam.</p>
+        </section>
+        <section>
+            <h2>Dados de cadastro</h2>
+            <form>
+                <fieldset>
+                    <legend>Dados cadastrais</legend>
+                    <label for="nome">Digite seu nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo:" required="true" >
+                    <br>
+                    <label for="email">Digite seu e-mail:</label>
+                    <input type="text" id="email" name="email" placeholder="Digite seu E-mail:" required="true" >
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Compartilhe seu motivo para participar do evento</h2>
+            <fieldset>
+                <legend hidden>Motivos</legend>
+                <label for="motivos">Escreva sobre seus motivos:</label>
+                <br>
+                <textarea placeholder="Digite aqui:" name="motivos" id="motivos" cols="30" rows="10"></textarea>
+            </fieldset>
+        </section>
+        <section>
+            <h2>Nome de usuario e senha</h2>
+            <form>
+                <fieldset>
+                    <label for="usuario">Nome de usuario:</label>
+                    <input type="text" id="nome" name="usuario" placeholder="Digite seu nome de usuario::" required="true" >
+                    <br>
+                    <label for="senha">Digite sua senha:</label>
+                    <input type="password" id="email" name="senha" placeholder="Digite sua senha:" required="true" >
+                    <br>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Informe seu modulo na Kenzie</h2>
+            <form>
+                <fieldset>
+                    <label for="modulo">Modulo</label>
+                    <select name="modulo" required="true" id="">
+                        <option value="">
+                            Escolher Modulo
+                        </option>
+                        <option value="M1">
+                            M1
+                        </option>
+                        <option value="M2">
+                            M2
+                        </option>
+                        <option value="M3">
+                            M3
+                        </option>
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h3>Gostaria de receber novos E-mails com novidades sobre o evento?</h3>
+            <form>
+                <fieldset>
+                    <label for="sim">Sim</label>
+                    <input type="radio"name="receber_email" value="sim">
+                    <label for="nao">nao</label>
+                    <input type="radio" name="receber_email" value="nao">
+                    <br>
+                    <label for="">Concluir cadastro?</label>
+                    <br>
+                    <button type="submit">Cadastrar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>Mais informações</h3>
+        <a href="https://kenzie.com.br/?utm_term=kenzie&utm_campaign=INSC-PER-2022-TERMOS-MARCA-SEARCH&utm_source=adwords&utm_medium=ppc&hsa_acc=2166776305&hsa_cam=15853756022&hsa_grp=137371409212&hsa_ad=574331809833&hsa_src=g&hsa_tgt=aud-1419452078794:kwd-91038899&hsa_kw=kenzie&hsa_mt=b&hsa_net=adwords&hsa_ver=3"target="blank" >Kenzie Academy</a>
+        <p>@Kenzie Academy</p>
+    </footer>
+</body>
+</html>
